@@ -98,6 +98,13 @@ section#img01 {
     background-position: right center;
 }
 
+/* Imagem para telas pequenas */
+@media screen and (max-width: 768px) {
+    section#img01 {
+        background-image: url(../imagens/steins\ gate\ menor.png);
+    }
+}
+
 section#img02 {
     background-image: url(../imagens/okabe\ 2.png);
     background-position: right center;
