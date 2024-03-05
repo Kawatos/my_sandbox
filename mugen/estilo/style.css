@@ -110,7 +110,8 @@ section#img01 {
         background-image: url(../imagens/okabe\ 2\ menor.png);
     }
     section > p {
-        font-size: 1em;
+        font-size: 0.5em;
+        line-height: 0.5em;
     }
 }
 
