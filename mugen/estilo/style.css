@@ -1,6 +1,6 @@
 @charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sriracha&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sriracha&display=swap');
 
 
 :root {
@@ -102,9 +102,15 @@ section#img01 {
 }
 
 /* Imagem para telas pequenas */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
     section#img01 {
         background-image: url(../imagens/steins\ gate\ menor.png);
+    }
+    section#img02 {
+        background-image: url(../imagens/okabe\ 2\ menor.png);
+    }
+    section > p {
+        font-size: 1em;
     }
 }
 
