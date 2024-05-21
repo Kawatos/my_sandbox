@@ -35,6 +35,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: blue;
 }
 
 .texto {
@@ -58,7 +59,7 @@
 .bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6, .bloco7, .bloco8 {
     width: 0vw;
     height: 12.5vh;
-    background-color: rgb(19, 0, 128);
+    background-color: white;
     animation: animacaoentrada 5s;
     animation-duration: 5s;
     animation-fill-mode: forwards; /* Mantém o estado final da animação */

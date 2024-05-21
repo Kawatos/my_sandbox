@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-svg {
+    position: relative;
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards ease-in-out;
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+    }
+}
+
+text {
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    fill: #333;
+}
